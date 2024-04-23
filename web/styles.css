@@ -1,0 +1,85 @@
+body {
+    font-family: 'Times New Roman', Times, serif, ;
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpg"); 
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    color: yellow;
+}
+
+.cs1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    }
+
+.cs2 {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    border: 1px solid #c0171700;
+    border-radius: 5px;
+    display: flex; 
+    }
+
+
+
+.form {
+width: 60%;
+padding: 20px;
+box-sizing: border-box;
+}
+
+.image {
+width: 70%;
+height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.image img {
+max-width: 100%;
+height: auto;
+}
+
+.form {
+width: 60%;
+padding: 20px;
+box-sizing: border-box;
+}
+
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form button {
+width: calc(100% - 20px);
+margin-bottom: 20px;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+.form button {
+background-color: #190ca9;
+color: white;
+cursor: pointer;
+}
+
+.form button:hover {
+background-color: #d4260f;
+}
+p{
+    color: white;
+}
+a{
+    color:yellow;
+}
